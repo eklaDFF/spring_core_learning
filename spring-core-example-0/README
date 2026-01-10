@@ -1,0 +1,5 @@
+This Project is a demonstration for :
+	`IoC` container based on :
+		`@Configuration` annotation on configuration class -> `@ComponentScan()` annotation to trigger scanning of Object classes -> `@Component` annotation on Object class
+
+Use `gradle run` to run the program.
