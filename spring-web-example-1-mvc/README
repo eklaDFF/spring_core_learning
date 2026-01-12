@@ -1,0 +1,7 @@
+This Project is demonstration for `Spring Web` with `Spring MVC` :
+	
+	When `Tomcat` server receive a reuqest from client, `Tomcat` pulls a `thread` from `Thread Pool` and assigns the request.
+	
+	Now the thread parses the request and forms the request. And creats `HttpServletRequest` and `HttpServletResponse` and then passes these two to the `DispatcherServlet`. (`DispatcherServlet` is different from normal `Servlet`. `DispatcherServlet` contains a Spring Container which is used to manage the beans and provide communication to Spring MVC infrastructure. Normal `Servlet` do not contain a Spring Container so all the business logic do by itself.)
+
+	Now the `DisptacherServlet` works with Spring Container to work with MVC and manage them like Beans.
