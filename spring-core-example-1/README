@@ -1,0 +1,3 @@
+This Project is a demonstration for :
+	`IoC` container based on :
+		`@Configuration` annotation on configuration class -> `@Bean` annotation on methods in configuration class
